@@ -12,8 +12,7 @@ begin
      #5 ir_data=16'b0000_0000_0000_0001;
   
      //iverilog control_unit_tb.v control_unit.v alu.v registers.v
-
-     //  
+ 
      #15 $finish;
 end
 endmodule

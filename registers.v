@@ -7,7 +7,7 @@ module registers(
 reg [7:0] r[0:7];
 initial 
 begin
-    r[0]=8'h01;r[1]=8'h03;
+    r[0]=8'h04;r[1]=8'h03;
 end
 always @(*)
 begin

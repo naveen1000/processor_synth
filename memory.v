@@ -14,8 +14,6 @@ always @(*)
 begin
     if(rd)
         data=mem[addr];
+       // $display("%d",data);
 end
-
-//assign data_out=r[addr];
-
 endmodule // memory module
